@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+}
+.App{
+  text-align: right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.QuoteBox{
+  max-width: 500px;
+  max-height: 200px;
+  border: solid black;
+  border-radius: 50px;
+  box-shadow: 10px 5px 5px rgb(44, 43, 43);
+  padding: 20px;
+  background-color: white;
+}
+
+.container-quote {
+  display: flex;
+  margin: 10px;
+}
+
+.fa-quote-left{
+ padding: 0 5px;
+}
+
+h3{
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.fa-angle-right {
+  padding: 20px;
+  color: black;
+}
+
+
+
