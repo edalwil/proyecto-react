@@ -31,7 +31,7 @@ const QuoteBox = () => {
     <div className="QuoteBox" style={{color:color}}>
       <div className="container-quote">
         <i className="fa-solid fa-quote-left fa-xl" style={{color:color}}></i>
-        <p>{phrase.quote}</p>
+        <div className="box-phrase"><p>{phrase.quote}</p></div>
       </div>
       <h3>{phrase.author}</h3>
       <button onClick={changePhrase}>
